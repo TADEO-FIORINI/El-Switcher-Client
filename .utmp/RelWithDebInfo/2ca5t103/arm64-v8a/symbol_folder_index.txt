@@ -1,0 +1,1 @@
+C:\Users\tadeo\OneDrive\Documentos\El Switcher Unity\el_switcher_app\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\2ca5t103\obj\arm64-v8a

@@ -1,0 +1,72 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de usuario
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# MonoDevelop
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+
+# Visual Studio
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.lib
+*.log
+*.obj
+*.pch
+*.pdb
+*.idb
+*.class
+*.cxx
+*.java
+
+# Unity Cache
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Unity Asset Database
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*
+
+# Archivos generados automáticamente por Unity
+[Aa]ssets/Plugins/*.dll
+[Aa]ssets/StreamingAssets/
+
+# Archivos para plataformas específicas
+*.apk
+*.ipa
+*.unitypackage
+
+# Archivos relacionados con configuraciones específicas del desarrollador
+.vs
+.vscode/
+.idea/
+*.swp
+*.code-workspace
+*.log
+*.stackdump

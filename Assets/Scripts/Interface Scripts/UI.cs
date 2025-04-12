@@ -33,7 +33,6 @@ public class UI : MonoBehaviour
 
     void MobileScreenSettings()
     {
-        Screen.orientation = ScreenOrientation.Portrait;
         scaler.referenceResolution = new Vector2(1100, 3500);
         if (IsGalaxyZFold())
         {

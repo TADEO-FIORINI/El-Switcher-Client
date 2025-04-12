@@ -26,10 +26,12 @@ public class GameMenu : MonoBehaviour
     public GamePublic publicGame;
 
     // Intern logic
-    public bool isEnd = false;
+    public bool isEnd;
 
     public void InitGameMenu(GamePublicData publicGameData)
     {
+        isEnd = false;
+
         publicGame = prefabUtils.InstantiateGame(transform);
         publicGame.CreateGame(publicGameData);
         publicGame.UpdateGameData(publicGameData);
@@ -37,11 +39,6 @@ public class GameMenu : MonoBehaviour
 
         CreateButtons();
         ResetState();
-
-        //if (NetworkAuthentication.userPrivateData.username == publicGameData.my_player.username)
-        //{
-        //    gameNetworkManager.StartTimer(NetworkAuthentication.userPrivateData.user_id, publicGameData.room.room_id);
-        //}
     }
 
     void CreateButtons()
